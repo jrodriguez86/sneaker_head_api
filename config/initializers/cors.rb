@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'localhost:3001'
+    origins 'https://git.heroku.com/sneakerhead2020.git'
 
     resource '*',
       headers: :any,
